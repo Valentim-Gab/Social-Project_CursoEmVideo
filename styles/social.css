@@ -50,3 +50,14 @@ a.youtube {
 a.youtube:hover {
   background-color: #cc0000;
 }
+
+a.threads {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+a.threads:hover {
+  background-color: #ffffff;
+  color: #000;
+}
