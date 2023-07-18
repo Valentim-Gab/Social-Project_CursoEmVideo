@@ -61,3 +61,56 @@ a.threads:hover {
   background-color: #ffffff;
   color: #000;
 }
+
+a.facebook {
+  background-color: darkblue;
+  color: #fff;
+}
+
+a.facebook:hover {
+  background-color: #0044ff;
+}
+
+a.github {
+  background-color: #500050;
+  color: #fff;
+}
+
+a.github:hover {
+  background-color: #800080;
+}
+
+a.instagram {
+  background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+  background-size: 200% 200%;
+  animation: gradient 10s ease infinite;
+  color: #fff;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a.instagram:hover {
+  background-attachment: fixed;
+  animation: none;
+  background-size: cover;
+}
+
+a.twitter {
+  background-color: #ffffff;
+  color: #00aeff;
+}
+
+a.twitter:hover {
+  background-color: #00aeff;
+  color: #fff;
+}
