@@ -27,6 +27,13 @@ main {
   align-items: center;
 }
 
+@media(max-width: 500px) {
+  main {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
 section#phone {
   height: 627px;
   width: 311px;
@@ -39,4 +46,37 @@ iframe#screen {
   left: 22px;
   width: 269px;
   height: 471px;
+}
+
+section#social-networks {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+@media(max-width: 500px) {
+  section#social-networks {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+section#social-networks img {
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px #00000066;
+  transition: .4s;
+}
+
+section#social-networks img:hover {
+  scale: 1.1;
+  cursor: pointer;
+  transform: translate(-3px, -3px);
+  box-shadow: 5px 5px 10px #00000099;
 }
